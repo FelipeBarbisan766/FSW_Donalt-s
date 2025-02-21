@@ -18,7 +18,7 @@ export const ConsumptionMethodOption = ({imageUrl, imageAlt, buttonText, option,
                 src={imageUrl}
                 width={78}
                 height={80} alt={imageAlt}/>
-            <Button variant="secondary" className="rounded-full">
+            <Button variant="secondary" className="rounded-full" asChild>
                 <Link href={`/${slug}/menu?comsumptionMethod=${option}`}>
                 {buttonText}
                 </Link>
